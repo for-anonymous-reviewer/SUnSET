@@ -1,5 +1,4 @@
-# SUnSET
-Who’s important? — SUnSET: Synergistic Understanding of Stakeholder, Events and Time for Timeline Generation
+# Who’s important? — SUnSET: Synergistic Understanding of Stakeholder, Events and Time for Timeline Generation
 For ARR Blind Review
 
 ## Install
