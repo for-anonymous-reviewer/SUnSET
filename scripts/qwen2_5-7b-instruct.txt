@@ -1,0 +1,31 @@
+Processing dataset: t17
+------------------------------------
+Date fallback rate for topic bpoil:
+event-wise: 1232/1890, 0.6518518518518519
+Date fallback rate for topic finan:
+event-wise: 245/335, 0.7313432835820896
+Date fallback rate for topic mj:
+event-wise: 102/160, 0.6375
+Date fallback rate for topic iraq:
+event-wise: 294/409, 0.7188264058679706
+Date fallback rate for topic haiti:
+event-wise: 241/351, 0.6866096866096866
+Date fallback rate for topic egypt:
+event-wise: 193/300, 0.6433333333333333
+Date fallback rate for topic libya:
+event-wise: 694/1071, 0.6479925303454716
+Date fallback rate for topic syria:
+event-wise: 585/768, 0.76171875
+Date fallback rate for topic h1n1:
+event-wise: 354/410, 0.8634146341463415
+
+Processing dataset: crisis
+------------------------------------
+Date fallback rate for topic egypt:
+event-wise: 3575/5277, 0.6774682584801971
+Date fallback rate for topic libya:
+event-wise: 3905/5324, 0.7334710743801653
+Date fallback rate for topic syria:
+event-wise: 4744/6053, 0.7837435982157608
+Date fallback rate for topic yemen:
+event-wise: 3750/5270, 0.7115749525616698
