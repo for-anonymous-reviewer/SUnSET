@@ -1,6 +1,7 @@
 # SUnSET
 Who’s important? — SUnSET: Synergistic Understanding of Stakeholder, Events and Time for Timeline Generation
 
+
 ## Install
 Installing necessary dependency for ROUGE score calculation.
 For Ubuntu/Debian:
@@ -32,6 +33,14 @@ With the SET data provided, you can start from Step 1 (skip the SET extraction a
 <!-- ### More -->
 
 ### -2. SET extraction
+```
+python src/set_extraction_vllm.py \
+    --model_path $LLM_PATH \
+    --dataset $DATASET \
+    --input_path $INPUT_PATH \
+    --output_path $INPUT_PATH/set/$LLM_NAME/$DATASET \
+    --openai_api_base $VLLM_API_BASE
+```
 
 ### -1. KG Construction & Resolution
 
@@ -82,3 +91,4 @@ python src/cluster_tls_eval.py \
     --output_path $INPUT_DATA_PATH/result/$DATASET \
     --beta $beta
 ```
+
